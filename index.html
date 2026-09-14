@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Local Edit – ein persönlicher, kartenzentrierter Guide für Rüttenscheid und Umgebung.">
+  <title>The Local Edit · Rüttenscheid</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3yn5WC2NQLi0jMZx5kK6vN0R0F9yE=" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="The Local Edit Startseite">The Local Edit</a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="#map-section">Karte</a>
+      <a href="#discover">Entdecken</a>
+      <a href="#places">Orte</a>
+      <a href="#about">Projekt</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro">
+      <p class="eyebrow">RÜTTENSCHEID · ESSEN</p>
+      <h1>Die Straße ist der rote Faden.</h1>
+      <p class="lede">Ein persönlicher Guide für die Rü und ihre Seitenstraßen – mit Orten, die man sonst erst nach Monaten entdeckt.</p>
+      <div class="intro-actions">
+        <a class="button primary" href="#map-section">Zur Karte</a>
+        <a class="button ghost" href="#discover">Nach Eigenschaften filtern</a>
+      </div>
+    </section>
+
+    <section id="map-section" class="map-layout" aria-labelledby="map-heading">
+      <aside class="map-sidebar">
+        <div>
+          <p class="eyebrow">KARTE</p>
+          <h2 id="map-heading">Rü zuerst. Kategorien danach.</h2>
+          <p>Die Karte bildet die Rüttenscheider Straße als Achse ab. Orte lassen sich zusätzlich nach Eigenschaften filtern – etwa Innenhof, ruhig, Feinkost oder lange sitzen.</p>
+        </div>
+
+        <div id="discover" class="filters" aria-label="Filter">
+          <button class="filter active" data-filter="all">Alle</button>
+          <button class="filter" data-filter="innenhof">Innenhof</button>
+          <button class="filter" data-filter="garten">Garten</button>
+          <button class="filter" data-filter="ruhig">Ruhig</button>
+          <button class="filter" data-filter="lange-sitzen">Lange sitzen</button>
+          <button class="filter" data-filter="kaffee">Kaffee</button>
+          <button class="filter" data-filter="essen">Essen</button>
+          <button class="filter" data-filter="feinkost">Feinkost</button>
+          <button class="filter" data-filter="praktisch">Praktisch</button>
+        </div>
+
+        <div class="anchor-note">
+          <span class="anchor-dot"></span>
+          <div><strong>Neutraler Bezugspunkt</strong><br>Feuerwache statt Privatadresse.</div>
+        </div>
+      </aside>
+
+      <div class="map-panel">
+        <div id="map" role="application" aria-label="Interaktive Karte von Rüttenscheid"></div>
+        <div class="map-caption">OpenStreetMap · Leaflet · Ortsdaten im Aufbau</div>
+      </div>
+    </section>
+
+    <section id="places" class="places-section" aria-labelledby="places-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ERSTE ORTE</p>
+          <h2 id="places-heading">Nicht nur was ein Ort ist – sondern wie er sich anfühlt.</h2>
+        </div>
+        <p>Die erste Datenbasis stammt aus der Branchenkarte von Rüttenscheid.de und wird schrittweise um persönliche Merkmale ergänzt.</p>
+      </div>
+      <div id="place-grid" class="place-grid"></div>
+    </section>
+
+    <section class="street-section">
+      <div class="street-line" aria-hidden="true"></div>
+      <div class="street-copy">
+        <p class="eyebrow">DIE RÜ ALS ACHSE</p>
+        <h2>Vom Stern über den Markt bis zum Girardet.</h2>
+        <p>Später lässt sich die Seite nicht nur nach Branchen, sondern entlang der Straße und ihrer Seitenstraßen erkunden. So werden auch die kleinen Läden sichtbar, die auf klassischen Empfehlungslisten untergehen.</p>
+      </div>
+      <div class="street-stops" aria-label="Räumliche Orientierung">
+        <span>Folkwang</span>
+        <span>Rüttenscheider Stern</span>
+        <span>Markt</span>
+        <span>Girardet</span>
+        <span>Gruga</span>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <p class="eyebrow">THE LOCAL EDIT</p>
+      <h2>Ein wachsendes Gedächtnis für das Viertel.</h2>
+      <p>Keine Bewertungsplattform und kein vollständiges Branchenbuch. Sondern eine kuratierte Sammlung mit Eigenschaften, Notizen und später eigenen Signatures: Was macht diesen Ort tatsächlich besonders?</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>The Local Edit</span>
+    <span>Rüttenscheid · Essen</span>
+    <a href="https://github.com/davXdash/the-local-edit">GitHub</a>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
