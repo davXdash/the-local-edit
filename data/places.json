@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Emilia Rue",
+    "type": "Frühstück & Café",
+    "area": "Rüttenscheid",
+    "tags": ["innenhof", "ruhig", "lange-sitzen", "kaffee", "essen"],
+    "note": "Innenterrasse; einer der klaren Kandidaten für ruhiges Sitzen abseits der Straße.",
+    "lat": 51.4309,
+    "lng": 7.0052,
+    "precision": "prototype"
+  },
+  {
+    "name": "Mimaya",
+    "type": "Mexican Food & Bar",
+    "area": "Rüttenscheid",
+    "tags": ["innenhof", "essen", "lange-sitzen"],
+    "note": "Hofterrasse; wichtig für den Filter 'hinten raus'.",
+    "lat": 51.4298,
+    "lng": 7.0054,
+    "precision": "prototype"
+  },
+  {
+    "name": "BLISS",
+    "type": "Restaurant & Bar",
+    "area": "Rüttenscheid",
+    "tags": ["innenhof", "essen", "lange-sitzen"],
+    "note": "Außengastronomie im Hof.",
+    "lat": 51.4276,
+    "lng": 7.0058,
+    "precision": "prototype"
+  },
+  {
+    "name": "Il Pomodoro",
+    "type": "Italienisch",
+    "area": "Rüttenscheid",
+    "tags": ["garten", "essen", "lange-sitzen"],
+    "note": "Sommergarten und Terrasse.",
+    "lat": 51.4287,
+    "lng": 7.0056,
+    "precision": "prototype"
+  },
+  {
+    "name": "Gin & Jagger",
+    "type": "Café · Bar · Brasserie",
+    "area": "Rüttenscheid",
+    "tags": ["garten", "essen", "lange-sitzen"],
+    "note": "Biergarten/Außengastronomie; als räumliches Merkmal relevant.",
+    "lat": 51.4327,
+    "lng": 7.0061,
+    "precision": "prototype"
+  },
+  {
+    "name": "Miamamia",
+    "type": "Mediterranes Bistro",
+    "area": "Rüttenscheid",
+    "tags": ["garten", "kaffee", "essen", "lange-sitzen"],
+    "note": "Garten-/Biergartencharakter; Café und Bistro.",
+    "lat": 51.4323,
+    "lng": 7.006,
+    "precision": "prototype"
+  },
+  {
+    "name": "Capobianco's Little Italy",
+    "type": "Italienisch",
+    "area": "Rüttenscheid",
+    "tags": ["garten", "essen", "lange-sitzen"],
+    "note": "Gartenterrasse/Biergarten.",
+    "lat": 51.4402,
+    "lng": 7.0044,
+    "precision": "prototype"
+  },
+  {
+    "name": ".selah café",
+    "type": "Café",
+    "area": "Rüttenscheid",
+    "tags": ["ruhig", "kaffee", "lange-sitzen"],
+    "note": "Ruhige Atmosphäre; interessant als Gegenpol zu lauter Außengastronomie.",
+    "lat": 51.4397,
+    "lng": 7.005,
+    "precision": "prototype"
+  },
+  {
+    "name": "Culinaria Italiana",
+    "type": "Feinkost",
+    "area": "Rüttenscheid",
+    "tags": ["feinkost"],
+    "note": "Italienische Feinkost; später Signature ergänzen.",
+    "lat": 51.4442,
+    "lng": 7.0056,
+    "precision": "prototype"
+  },
+  {
+    "name": "Rüttenscheider Markt",
+    "type": "Wochenmarkt",
+    "area": "Rüttenscheider Platz",
+    "tags": ["feinkost", "praktisch"],
+    "note": "Zentraler Alltagsort; später Marktzeiten, Lieblingsstände und Signatures ergänzen.",
+    "lat": 51.4385,
+    "lng": 7.0058,
+    "precision": "prototype"
+  }
+]
